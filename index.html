@@ -2,45 +2,74 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | NFT preview card component</title>
+   <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <style>
+      .attribution {
+         font-size: 11px;
+         text-align: center;
+      }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+      .attribution a {
+         color: hsl(228, 45%, 44%);
+      }
+   </style>
 
-  <!-- linking my css file  -->
-  <link rel="stylesheet" type="text/css" href="./css/style.min.css">
+   <!-- linking my css file  -->
+   <link rel="stylesheet" type="text/css" href="./css/style.min.css">
 </head>
 
 <body>
 
-  Equilibrium #3429
+   <main>
 
-  Our Equilibrium collection promotes balance and calm.
+      <div class="card">
 
-  0.041 ETH
-  3 days left
+         <div class="img-container">
+            <img class="equilibrum" src="./images/image-equilibrium.jpg" alt="image quilibrum">
+            <div class="view">
+               <img src="./images/icon-view.svg" alt="eye icon">
+            </div>
+         </div>
 
-  Creation of Jules Wyvern
+         <div class="main-info-container">
+            <h1 class="action">Equilibrium #3429</h1>
+            <p>Our Equilibrium collection promotes balance and calm.</p>
+            <div class="second-info-container">
+               <div> <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
+                        fill="#00FFF8" />
+                  </svg>
+                  <h2>0.041 ETH</h2>
+               </div>
+               <div> <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
+                        fill="#8BACD9" />
+                  </svg>
+                  <h2>3 days left</h2>
+               </div>
+            </div>
+         </div>
+         <div class="creator-container">
+            <img src="./images/image-avatar.png" alt="Jules Wyvern photograph">
+            <h3>Creation of <span class="action">Jules Wyvern</span></h3>
+         </div>
+      </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <div class="attribution">
+         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+         Coded by <a href="https://github.com/FabEklou">FabEklou</a>.
+      </div>
+   </main>
+
 </body>
 
 </html>
